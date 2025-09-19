@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+# User Profiles Advanced (React + Ant Design)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the **Assignment 2 project** for the ReactJS Frontend Developer position.
+It displays **user profiles** fetched from an API with avatars, edit functionality via a modal, and responsive design using **Ant Design**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+* Fetches **10 user profiles** from `https://jsonplaceholder.typicode.com/users`
+* Displays avatars using **DiceBear Avatars API**
+* Responsive UI built with **Ant Design**
+* Loading spinner while fetching users
+* Edit user details via **Modal + Form**
+* Delete users from the list
+* Production deployment on **Vercel**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+* [React](https://react.dev/)
+* [Ant Design](https://ant.design/)
+* [DiceBear Avatars](https://avatars.dicebear.com/)
+* [Vercel](https://vercel.com/) for deployment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📂 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+user-profiles-advanced/
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.js
+│   ├── index.js
+│   ├── components/
+│   │   ├── UserCard.js
+│   │   ├── EditUserModal.js
+│   │   └── Loader.js
+│   └── styles/
+│       └── App.css
+├── package.json
+└── README.md
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⚙️ Installation
 
-### `npm run eject`
+Clone the repo and install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/<your-username>/user-profiles-advanced.git
+cd user-profiles-advanced
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Start the development server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Build for production:
 
-## Learn More
+```bash
+npm run build
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🌐 Deployment (Vercel)
 
-### Code Splitting
+1. Install Vercel CLI:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```bash
+   npm install -g vercel
+   ```
 
-### Analyzing the Bundle Size
+2. Deploy:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```bash
+   vercel
+   ```
 
-### Making a Progressive Web App
+3. Push to **Production** (public URL):
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   ```bash
+   vercel --prod
+   ```
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🔗 Live Demo
 
-### Deployment
+👉 [View Deployment](https://user-profiles-advanced-p484drp67-vinayravula15s-projects.vercel.app)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📸 Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Home Page
+
+Displays user profiles in responsive grid layout.
+(Include a screenshot here if available)
+
+### Edit Modal
+
+Edit user details via Ant Design Modal + Form.
+(Include a screenshot here if available)
+
+---
+
+## 👨‍💻 Author
+
+**Vinay Ravula**
+Frontend Developer Assignment Submission
+

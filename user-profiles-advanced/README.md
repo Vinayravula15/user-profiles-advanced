@@ -52,7 +52,7 @@ user-profiles-advanced/
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/<your-username>/user-profiles-advanced.git
+git clone https://github.com/Vinayravula15/user-profiles-advanced.git
 cd user-profiles-advanced
 npm install
 ```
